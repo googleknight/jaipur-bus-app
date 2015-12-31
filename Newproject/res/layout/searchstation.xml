@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgrounds"
+    android:orientation="vertical" >
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:text="From:"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:textStyle="bold" />
+
+ <Spinner
+     android:id="@+id/spinner1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="35dp" />
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/spinner1"
+     android:layout_marginTop="30dp"
+     android:text="To:"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:textStyle="bold" />
+
+ <Spinner
+     android:id="@+id/spinner2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/textView2"
+     android:layout_marginTop="35dp" />
+
+ <Button
+     android:id="@+id/button1"
+     android:layout_width="fill_parent"
+     android:layout_marginTop="50dp"
+     android:layout_height="64dp"
+     android:layout_marginBottom="46dp"
+     android:background="@drawable/btback"
+     android:onClick="clickme"
+     android:text="Search"
+     android:textColor="@android:color/white"
+     android:textStyle="bold" />
+
+</LinearLayout>
